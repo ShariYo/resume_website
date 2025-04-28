@@ -61,3 +61,19 @@ button:active {
     background-color: black;
     color: white;
 }
+
+@media (max-width: 600px) {
+    .intro {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .intro-text {
+        text-align: center;
+    }
+
+    button {
+        width: 100%;
+        max-width: 300px;
+    }
+}
